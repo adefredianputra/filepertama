@@ -1,0 +1,353 @@
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ FrameworkConfig ] setAppPath appPath == /storage/emulated/0/MiVideoGlobal
+2019-01-29 22:11:00	DEBUG	ThemeUtils	[ createPackageContext ] isTheme= false   mThemeId= com.miui.video.theme.01
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ OVDatabase-Setting ] cacheToMemory
+2019-01-29 22:11:00	DEBUG	DBUtils	[ DBUtils ] getDatabaseName= online.db
+2019-01-29 22:11:00	DEBUG	OVDatabase	[ query ] getCount=17	com.miui.video.framework.db.TableEntity@4e6a77f
+tableName=ov_setting_table
+
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ init ] ==========Device Info==========
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ androidSDK ] 27
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ phoneBoard ] unknown
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ phoneBrand ] xiaomi
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ phoneCPU_ABT ] armeabi-v7a
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ phoneDevice ] cactus
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ phoneDisplay ] O11019
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ phoneFingerprint ] xiaomi/cactus/cactus:8.1.0/O11019/V10.2.2.0.OCBMIXM:user/release-keys
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ phoneHost ] mi-server
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ phoneID ] O11019
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ phoneManufacturer ] Xiaomi
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ phoneModel ] Redmi 6A
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ phoneVersion ] 8.1.0
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ phoneProduct ] cactus
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ phoneTags ] release-keys
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ phoneTime ] Fri Dec 28 14:18:01 GMT+07:00 2018
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ phoneType ] user
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ phoneUser ] builder
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ screenDensity ] 2.0
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ screenScaledDensity ] 2.0
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ screenWidthPixels ] 720
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ wcreenHeightPixels ] 1344
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ screenStatusBarHeight ] 50
+2019-01-29 22:11:00	DEBUG	DeviceUtils	[ init ] ===============================
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ AppConfig ] initAppChannel success channel = miui
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ AppConfig ] initAppChannel success platform = miui
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ VideoMediationManager ] init
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ VideoMediationManager ] init end  ENABLE_LOG = falseIS_LOCAL_CONFIG = false ; Staging = false ;  is test = false
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ Plugin-PackageInstaller ] init
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ PermissionUtils ] isAllPermissionGrant is called; context = com.miui.video.global.GlobalApplication@1c7d576
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.WRITE_EXTERNAL_STORAGE; Context = com.miui.video.global.GlobalApplication@1c7d576
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.WRITE_EXTERNAL_STORAGE ret = true
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.READ_PHONE_STATE; Context = com.miui.video.global.GlobalApplication@1c7d576
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.READ_PHONE_STATE ret = true
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ SyncSettingHelper ] lastTimeStamp = 1548738002350, ignoreSyncSettingTimes = 1
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ ThreadPoolManager ] initThreadPool index　0
+2019-01-29 22:11:00	DEBUG	DataUtils	[ addUI ] ui= com.miui.video.localvideoplayer.GalleryPlayerActivity@8185db9
+2019-01-29 22:11:00	DEBUG	OVDatabase	[ query ] getCount=1	com.miui.video.framework.db.TableEntity@50475fe
+tableName=ov_setting_table
+whereClause=name =?
+whereArgs=setting_key_ignore_sync_setting_times
+
+2019-01-29 22:11:00	DEBUG	OVDatabase	[ update ] count=1	com.miui.video.framework.db.TableEntity@d339261
+tableName=ov_setting_table
+whereClause=name='setting_key_ignore_sync_setting_times'
+values=name:setting_key_ignore_sync_setting_times
+values=date_time:1548774660361
+values=value:2
+
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackDev : map = {"page_name":"GalleryPlayerActivity","type":"page_view"}
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackBusiness : map = {"_miui":"V10","_ver":"2018081090(MiVideo-GROM)","_anoyid":"d6823bcf-e207-4f87-8860-ce7b4e8b8270","_region":"ID","type":"page_view","_res":"hd720","_device":"cactus","_miuiver":"V10.2.2.0.OCBMIXM","_appver":"2018081090","page_name":"GalleryPlayerActivity","_nettype":"4","_andver":"27","_model":"Redmi 6A","_plyver":"20180726","_locale":"in_ID","_ts":"1548774660"}
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ PermissionUtils ] isAllPermissionGrant is called; context = com.miui.video.localvideoplayer.GalleryPlayerActivity@8185db9
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.WRITE_EXTERNAL_STORAGE; Context = com.miui.video.localvideoplayer.GalleryPlayerActivity@8185db9
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.WRITE_EXTERNAL_STORAGE ret = true
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.READ_PHONE_STATE; Context = com.miui.video.localvideoplayer.GalleryPlayerActivity@8185db9
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.READ_PHONE_STATE ret = true
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ openLink ] link=mv://SyncSetting  scheme=mv  host=SyncSetting  path=  params=[]   ref=null
+2019-01-29 22:11:00	DEBUG	StatisticsUtils	[ addStatistics ] STATISTICS_ACTION= ACTION_CLICK  obj= 	com.miui.video.common.entity.LinkEntity@6e9a6a5
+Uri=mv://SyncSetting
+getScheme=mv
+getHost=SyncSetting
+getPath=
+getQuery=null
+getQueryParameterNames=[]
+ref=null
+
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ SyncSettingHelper ] lastTimeStamp = 1548738002350, ignoreSyncSettingTimes = 2
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ MiDevLogger ] click: CLICK{ target=mv://SyncSetting, additions=[]}, FROM:com.miui.videoplayer , PATH[]
+2019-01-29 22:11:00	DEBUG	OVDatabase	[ query ] getCount=1	com.miui.video.framework.db.TableEntity@3730821
+tableName=ov_setting_table
+whereClause=name =?
+whereArgs=setting_key_ignore_sync_setting_times
+
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ LogMivideo ] CLICK{ target=mv://SyncSetting, additions=[]}
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ LogMivideo ] report click event
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackBusiness : map = {"_miui":"V10","_ver":"2018081090(MiVideo-GROM)","_anoyid":"d6823bcf-e207-4f87-8860-ce7b4e8b8270","_region":"ID","type":"click","_res":"hd720","_device":"cactus","target":"mv://SyncSetting","_miuiver":"V10.2.2.0.OCBMIXM","at":"1548774660545","_appver":"2018081090","_nettype":"4","_andver":"27","_model":"Redmi 6A","_plyver":"20180726","_locale":"in_ID","_ts":"1548774660"}
+2019-01-29 22:11:00	DEBUG	OVDatabase	[ update ] count=1	com.miui.video.framework.db.TableEntity@d7055d
+tableName=ov_setting_table
+whereClause=name='setting_key_ignore_sync_setting_times'
+values=name:setting_key_ignore_sync_setting_times
+values=date_time:1548774660543
+values=value:3
+
+2019-01-29 22:11:00	ERROR	PiscesDiracUtils	[  ] java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+
+2019-01-29 22:11:00	ERROR	com.miui.videoplayer	[ VideoViewPresenter ] onActivityResume isKeyguardLocked:false isInMultiWindow:false
+
+2019-01-29 22:11:00	ERROR	PiscesDiracUtils	[  ] java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] sendPlayActionBroadcast to :com.miui.gallery play_action:activity_resume_start
+2019-01-29 22:11:00	DEBUG	com.miui.videoplayer	[ StatisticsPresenter ] onVideoResume
+2019-01-29 22:11:01	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] sendPlayActionBroadcast to :com.miui.gallery play_action:play_start
+2019-01-29 22:11:01	DEBUG	com.miui.videoplayer	[ StatisticsPresenter ] type = play.start_succ videoType = local, map: {duration=60, ref=Galeri, at=1548774661279, type=play.start_succ, played_all=0, video_type=local}
+2019-01-29 22:11:01	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackBusiness : map = {"_miui":"V10","_ver":"2018081090(MiVideo-GROM)","_anoyid":"d6823bcf-e207-4f87-8860-ce7b4e8b8270","_region":"ID","type":"play.start_succ","_res":"hd720","_device":"cactus","video_type":"local","duration":"60","_miuiver":"V10.2.2.0.OCBMIXM","ref":"Galeri","at":"1548774661279","_appver":"2018081090","_nettype":"4","_andver":"27","_model":"Redmi 6A","_plyver":"20180726","played_all":"0","_locale":"in_ID","_ts":"1548774661"}
+2019-01-29 22:11:01	DEBUG	DBUtils	[ DBUtils ] getDatabaseName= mivideo.db
+2019-01-29 22:11:01	DEBUG	CLVDatabase	[ query ] getCount=1	com.miui.video.framework.db.TableEntity@4ced6a2
+tableName=history
+whereClause=md5_path =?
+whereArgs=06da11dba6ad910285aab217d7fb6ee4
+orderBy=updateTime DESC
+
+2019-01-29 22:11:01	DEBUG	DBUtils	[ moveToNext ] size=1	VideoEntity[baseId=0]
+uri=null
+mediaId=0
+hideId=-1
+id=2
+title=Medan_dubbing.2018.mp4
+imgUrl=/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+path=/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+size=1,60MB
+duration=07:01:00
+updateTime=2019年01月29日 12时10分41秒
+
+2019-01-29 22:11:01	DEBUG	CLVDatabase	[ query ] getCount=1	com.miui.video.framework.db.TableEntity@5392f0
+tableName=history
+whereClause=md5_path =?
+whereArgs=06da11dba6ad910285aab217d7fb6ee4
+orderBy=updateTime DESC
+
+2019-01-29 22:11:01	DEBUG	DBUtils	[ moveToNext ] size=1	VideoEntity[baseId=0]
+uri=null
+mediaId=0
+hideId=-1
+id=2
+title=Medan_dubbing.2018.mp4
+imgUrl=/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+path=/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+size=1,60MB
+duration=07:01:00
+updateTime=2019年01月29日 12时10分41秒
+
+2019-01-29 22:11:01	DEBUG	CLVDatabase	[ insertOrUpdate ] id=2	com.miui.video.framework.db.TableEntity@867baee
+tableName=history
+whereClause=path='/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4'
+values=currentSubtitlePath:-1
+values=currentAudioTrack:0
+values=md5_path:06da11dba6ad910285aab217d7fb6ee4
+values=updateTime:1548774661351
+values=onlineSubHash:
+values=extraSubtitlePath:
+values=title:Medan_dubbing.2018.mp4
+values=playProgress:0
+values=imgUrl:/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+values=duration:60092
+values=path:/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+values=extraSubtitleOffset:[{"path":"-1","timeOffset":0}]
+values=size:1677215
+values=onlineSubLocalPath:
+values=_id:2
+
+2019-01-29 22:11:01	DEBUG	com.miui.videoplayer	[ HistorySPHelper ] SPHistoryEntry{path='/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4', offset=0, saveTime=1548774661363}
+2019-01-29 22:12:01	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] OnCompletionListener onCompletion :  
+2019-01-29 22:12:01	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] sendPlayActionBroadcast to :com.miui.gallery play_action:play_complete
+2019-01-29 22:12:01	DEBUG	CLVDatabase	[ query ] getCount=1	com.miui.video.framework.db.TableEntity@cf562
+tableName=history
+whereClause=md5_path =?
+whereArgs=06da11dba6ad910285aab217d7fb6ee4
+orderBy=updateTime DESC
+
+2019-01-29 22:12:01	DEBUG	DBUtils	[ moveToNext ] size=1	VideoEntity[baseId=0]
+uri=null
+mediaId=0
+hideId=-1
+id=2
+title=Medan_dubbing.2018.mp4
+imgUrl=/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+path=/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+size=1,60MB
+duration=07:01:00
+updateTime=2019年01月29日 22时11分01秒
+
+2019-01-29 22:12:01	DEBUG	CLVDatabase	[ insertOrUpdate ] id=2	com.miui.video.framework.db.TableEntity@41486f3
+tableName=history
+whereClause=path='/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4'
+values=currentSubtitlePath:-1
+values=currentAudioTrack:0
+values=md5_path:06da11dba6ad910285aab217d7fb6ee4
+values=updateTime:1548774721417
+values=onlineSubHash:
+values=extraSubtitlePath:
+values=title:Medan_dubbing.2018.mp4
+values=playProgress:0
+values=imgUrl:/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+values=duration:60092
+values=path:/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+values=extraSubtitleOffset:[{"path":"-1","timeOffset":0}]
+values=size:1677215
+values=onlineSubLocalPath:
+values=_id:2
+
+2019-01-29 22:12:01	DEBUG	com.miui.videoplayer	[ HistorySPHelper ] SPHistoryEntry{path='/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4', offset=0, saveTime=1548774721432}
+2019-01-29 22:12:01	DEBUG	com.miui.videoplayer	[ StatisticsPresenter ] type = play.completelast videoType = local, map: {duration=60, ref=Galeri, at=1548774721490, type=play.completelast, played_all=60, video_type=local}
+2019-01-29 22:12:01	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackBusiness : map = {"_miui":"V10","_ver":"2018081090(MiVideo-GROM)","_anoyid":"d6823bcf-e207-4f87-8860-ce7b4e8b8270","_region":"ID","type":"play.completelast","_res":"hd720","_device":"cactus","video_type":"local","duration":"60","_miuiver":"V10.2.2.0.OCBMIXM","ref":"Galeri","at":"1548774721490","_appver":"2018081090","_nettype":"4","_andver":"27","_model":"Redmi 6A","_plyver":"20180726","played_all":"60","_locale":"in_ID","_ts":"1548774721"}
+2019-01-29 22:12:01	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] VideoViewPresenter#pause
+2019-01-29 22:12:01	ERROR	PiscesDiracUtils	[  ] java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+
+2019-01-29 22:12:01	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] sendPlayActionBroadcast to :com.miui.gallery play_action:activity_paused_pause
+2019-01-29 22:12:01	DEBUG	DataUtils	[ removeUI ] ui= com.miui.video.localvideoplayer.GalleryPlayerActivity@8185db9
+2019-01-29 22:12:01	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] sendPlayActionBroadcast to :com.miui.gallery play_action:videoview_released
+2019-01-29 22:12:02	DEBUG	DataUtils	[ addUI ] ui= com.miui.video.localvideoplayer.GalleryPlayerActivity@a4e13a4
+2019-01-29 22:12:02	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackDev : map = {"page_name":"GalleryPlayerActivity","type":"page_view"}
+2019-01-29 22:12:02	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackBusiness : map = {"_miui":"V10","_ver":"2018081090(MiVideo-GROM)","_anoyid":"d6823bcf-e207-4f87-8860-ce7b4e8b8270","_region":"ID","type":"page_view","_res":"hd720","_device":"cactus","_miuiver":"V10.2.2.0.OCBMIXM","_appver":"2018081090","page_name":"GalleryPlayerActivity","_nettype":"4","_andver":"27","_model":"Redmi 6A","_plyver":"20180726","_locale":"in_ID","_ts":"1548774722"}
+2019-01-29 22:12:02	DEBUG	com.miui.videoplayer	[ PermissionUtils ] isAllPermissionGrant is called; context = com.miui.video.localvideoplayer.GalleryPlayerActivity@a4e13a4
+2019-01-29 22:12:02	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.WRITE_EXTERNAL_STORAGE; Context = com.miui.video.localvideoplayer.GalleryPlayerActivity@a4e13a4
+2019-01-29 22:12:02	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.WRITE_EXTERNAL_STORAGE ret = true
+2019-01-29 22:12:02	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission is called permission = android.permission.READ_PHONE_STATE; Context = com.miui.video.localvideoplayer.GalleryPlayerActivity@a4e13a4
+2019-01-29 22:12:02	DEBUG	com.miui.videoplayer	[ PermissionUtils ] checkSelfPermission android.permission.READ_PHONE_STATE ret = true
+2019-01-29 22:12:02	DEBUG	com.miui.videoplayer	[ openLink ] link=mv://SyncSetting  scheme=mv  host=SyncSetting  path=  params=[]   ref=null
+2019-01-29 22:12:02	DEBUG	StatisticsUtils	[ addStatistics ] STATISTICS_ACTION= ACTION_CLICK  obj= 	com.miui.video.common.entity.LinkEntity@b2fadd4
+Uri=mv://SyncSetting
+getScheme=mv
+getHost=SyncSetting
+getPath=
+getQuery=null
+getQueryParameterNames=[]
+ref=null
+
+2019-01-29 22:12:02	DEBUG	com.miui.videoplayer	[ MiDevLogger ] click: CLICK{ target=mv://SyncSetting, additions=[]}, FROM:com.miui.videoplayer , PATH[]
+2019-01-29 22:12:02	DEBUG	com.miui.videoplayer	[ SyncSettingHelper ] lastTimeStamp = 1548738002350, ignoreSyncSettingTimes = 3
+2019-01-29 22:12:02	DEBUG	com.miui.videoplayer	[ LogMivideo ] CLICK{ target=mv://SyncSetting, additions=[]}
+2019-01-29 22:12:02	DEBUG	com.miui.videoplayer	[ LogMivideo ] report click event
+2019-01-29 22:12:02	DEBUG	OVDatabase	[ query ] getCount=1	com.miui.video.framework.db.TableEntity@123ea72
+tableName=ov_setting_table
+whereClause=name =?
+whereArgs=setting_key_ignore_sync_setting_times
+
+2019-01-29 22:12:02	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackBusiness : map = {"_miui":"V10","_ver":"2018081090(MiVideo-GROM)","_anoyid":"d6823bcf-e207-4f87-8860-ce7b4e8b8270","_region":"ID","type":"click","_res":"hd720","_device":"cactus","target":"mv://SyncSetting","_miuiver":"V10.2.2.0.OCBMIXM","at":"1548774722878","_appver":"2018081090","_nettype":"4","_andver":"27","_model":"Redmi 6A","_plyver":"20180726","_locale":"in_ID","_ts":"1548774722"}
+2019-01-29 22:12:02	DEBUG	OVDatabase	[ update ] count=1	com.miui.video.framework.db.TableEntity@4db841f
+tableName=ov_setting_table
+whereClause=name='setting_key_ignore_sync_setting_times'
+values=name:setting_key_ignore_sync_setting_times
+values=date_time:1548774722877
+values=value:4
+
+2019-01-29 22:12:02	ERROR	PiscesDiracUtils	[  ] java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+
+2019-01-29 22:12:02	ERROR	com.miui.videoplayer	[ VideoViewPresenter ] onActivityResume isKeyguardLocked:false isInMultiWindow:false
+
+2019-01-29 22:12:02	ERROR	PiscesDiracUtils	[  ] java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+
+2019-01-29 22:12:02	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] sendPlayActionBroadcast to :com.miui.gallery play_action:activity_resume_start
+2019-01-29 22:12:02	DEBUG	com.miui.videoplayer	[ StatisticsPresenter ] onVideoResume
+2019-01-29 22:12:03	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] sendPlayActionBroadcast to :com.miui.gallery play_action:play_start
+2019-01-29 22:12:03	DEBUG	com.miui.videoplayer	[ StatisticsPresenter ] type = play.start_succ videoType = local, map: {duration=60, ref=Galeri, at=1548774723111, type=play.start_succ, played_all=0, video_type=local}
+2019-01-29 22:12:03	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackBusiness : map = {"_miui":"V10","_ver":"2018081090(MiVideo-GROM)","_anoyid":"d6823bcf-e207-4f87-8860-ce7b4e8b8270","_region":"ID","type":"play.start_succ","_res":"hd720","_device":"cactus","video_type":"local","duration":"60","_miuiver":"V10.2.2.0.OCBMIXM","ref":"Galeri","at":"1548774723111","_appver":"2018081090","_nettype":"4","_andver":"27","_model":"Redmi 6A","_plyver":"20180726","played_all":"0","_locale":"in_ID","_ts":"1548774723"}
+2019-01-29 22:12:03	DEBUG	CLVDatabase	[ query ] getCount=1	com.miui.video.framework.db.TableEntity@7058da5
+tableName=history
+whereClause=md5_path =?
+whereArgs=06da11dba6ad910285aab217d7fb6ee4
+orderBy=updateTime DESC
+
+2019-01-29 22:12:03	DEBUG	DBUtils	[ moveToNext ] size=1	VideoEntity[baseId=0]
+uri=null
+mediaId=0
+hideId=-1
+id=2
+title=Medan_dubbing.2018.mp4
+imgUrl=/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+path=/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+size=1,60MB
+duration=07:01:00
+updateTime=2019年01月29日 22时12分01秒
+
+2019-01-29 22:12:03	DEBUG	CLVDatabase	[ query ] getCount=1	com.miui.video.framework.db.TableEntity@123c57a
+tableName=history
+whereClause=md5_path =?
+whereArgs=06da11dba6ad910285aab217d7fb6ee4
+orderBy=updateTime DESC
+
+2019-01-29 22:12:03	DEBUG	DBUtils	[ moveToNext ] size=1	VideoEntity[baseId=0]
+uri=null
+mediaId=0
+hideId=-1
+id=2
+title=Medan_dubbing.2018.mp4
+imgUrl=/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+path=/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+size=1,60MB
+duration=07:01:00
+updateTime=2019年01月29日 22时12分01秒
+
+2019-01-29 22:12:03	DEBUG	CLVDatabase	[ insertOrUpdate ] id=2	com.miui.video.framework.db.TableEntity@8c2712b
+tableName=history
+whereClause=path='/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4'
+values=currentSubtitlePath:-1
+values=currentAudioTrack:0
+values=md5_path:06da11dba6ad910285aab217d7fb6ee4
+values=updateTime:1548774723215
+values=onlineSubHash:
+values=extraSubtitlePath:
+values=title:Medan_dubbing.2018.mp4
+values=playProgress:0
+values=imgUrl:/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+values=duration:60092
+values=path:/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+values=extraSubtitleOffset:[{"path":"-1","timeOffset":0}]
+values=size:1677215
+values=onlineSubLocalPath:
+values=_id:2
+
+2019-01-29 22:12:03	DEBUG	com.miui.videoplayer	[ HistorySPHelper ] SPHistoryEntry{path='/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4', offset=0, saveTime=1548774723226}
+2019-01-29 22:13:02	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] OnCompletionListener onCompletion :  
+2019-01-29 22:13:02	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] sendPlayActionBroadcast to :com.miui.gallery play_action:play_complete
+2019-01-29 22:13:02	DEBUG	CLVDatabase	[ query ] getCount=1	com.miui.video.framework.db.TableEntity@eac0b82
+tableName=history
+whereClause=md5_path =?
+whereArgs=06da11dba6ad910285aab217d7fb6ee4
+orderBy=updateTime DESC
+
+2019-01-29 22:13:02	DEBUG	DBUtils	[ moveToNext ] size=1	VideoEntity[baseId=0]
+uri=null
+mediaId=0
+hideId=-1
+id=2
+title=Medan_dubbing.2018.mp4
+imgUrl=/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+path=/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+size=1,60MB
+duration=07:01:00
+updateTime=2019年01月29日 22时12分03秒
+
+2019-01-29 22:13:02	DEBUG	CLVDatabase	[ insertOrUpdate ] id=2	com.miui.video.framework.db.TableEntity@34eb293
+tableName=history
+whereClause=path='/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4'
+values=currentSubtitlePath:-1
+values=currentAudioTrack:0
+values=md5_path:06da11dba6ad910285aab217d7fb6ee4
+values=updateTime:1548774782772
+values=onlineSubHash:
+values=extraSubtitlePath:
+values=title:Medan_dubbing.2018.mp4
+values=playProgress:0
+values=imgUrl:/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+values=duration:60092
+values=path:/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4
+values=extraSubtitleOffset:[{"path":"-1","timeOffset":0}]
+values=size:1677215
+values=onlineSubLocalPath:
+values=_id:2
+
+2019-01-29 22:13:02	DEBUG	com.miui.videoplayer	[ HistorySPHelper ] SPHistoryEntry{path='/storage/emulated/0/VidMate/download/Medan_dubbing.2018.mp4', offset=0, saveTime=1548774782786}
+2019-01-29 22:13:02	DEBUG	com.miui.videoplayer	[ StatisticsPresenter ] type = play.completelast videoType = local, map: {duration=60, ref=Galeri, at=1548774782843, type=play.completelast, played_all=59, video_type=local}
+2019-01-29 22:13:02	DEBUG	com.miui.videoplayer	[ TrackerUtils ] trackBusiness : map = {"_miui":"V10","_ver":"2018081090(MiVideo-GROM)","_anoyid":"d6823bcf-e207-4f87-8860-ce7b4e8b8270","_region":"ID","type":"play.completelast","_res":"hd720","_device":"cactus","video_type":"local","duration":"60","_miuiver":"V10.2.2.0.OCBMIXM","ref":"Galeri","at":"1548774782843","_appver":"2018081090","_nettype":"4","_andver":"27","_model":"Redmi 6A","_plyver":"20180726","played_all":"59","_locale":"in_ID","_ts":"1548774782"}
+2019-01-29 22:13:02	DEBUG	com.miui.videoplayer	[ VideoViewPresenter ] VideoViewPresenter#pause
+2019-01-29 22:13:02	ERROR	PiscesDiracUtils	[  ] java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+
